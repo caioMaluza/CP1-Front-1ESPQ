@@ -1,0 +1,17 @@
+/* Reset básico (apenas para o hub, se quiser isolar) */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {}
+
+/* Aqui vai estar o estilo do hub principal */
+.hub-header {}
+
+.hub-container {}
+
+/* Aqui vai arrumar a logo */
+.hub-logo a {}
+.hub-logo a:hover {}
