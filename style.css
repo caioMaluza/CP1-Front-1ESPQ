@@ -5,7 +5,51 @@
   box-sizing: border-box;
 }
 
-body {}
+.navbar {
+  position: fixed; /* fica sempre no topo */
+  top: 0;
+  left: 0;
+
+  width: 100%;
+  height: 70px;
+
+  background-color: #0b1c2c; /* azul escuro */
+  color: white;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  padding: 0 40px;
+}
+
+/* logo */
+.logo {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+/* menu central */
+.menu a {
+  margin: 0 15px;
+  text-decoration: none;
+  color: white;
+}
+
+/* lado direito */
+.acoes a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: white;
+  gap: 15px;
+}
+
+.login {
+  color: white;
+  text-decoration: none;
+}
+
 
 /* Aqui vai estar o estilo do hub principal */
 .hub-header {}
