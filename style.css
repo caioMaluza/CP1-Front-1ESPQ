@@ -5,6 +5,15 @@
   box-sizing: border-box;
 }
 
+/*  Fonte: "Playfair Display" */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap'); 
+
+
+/*  Fonte: "Montserrat"  */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+
+
 .navbar {
   position: fixed; /* fica sempre no topo */
   top: 0;
@@ -27,13 +36,23 @@
 .logo {
   font-size: 22px;
   font-weight: bold;
+  background-color: #0b1c2c;
 }
 
 /* menu central */
+
+.menu {
+  display: flex;
+  justify-content: center;
+}
+
 .menu a {
-  margin: 0 15px;
+  display: inline-block;
+  padding: 10px 20px;
   text-decoration: none;
   color: white;
+  background-color: #0b1c2c;
+  border-radius: 5px;
 }
 
 /* lado direito */
@@ -43,19 +62,32 @@
   text-decoration: none;
   color: white;
   gap: 15px;
+  background-color: #0b1c2c;
 }
 
-.login {
-  color: white;
-  text-decoration: none;
-}
-
-
-/* Aqui vai estar o estilo do hub principal */
-.hub-header {}
-
-.hub-container {}
 
 /* Aqui vai arrumar a logo */
-.hub-logo a {}
-.hub-logo a:hover {}
+.hub-principal  {
+  padding-top: 3%;
+  border-radius: 100%;
+  
+}
+
+#titulos{
+  text-align: center;
+  color: #382e2e;
+  font-family: "Playfair Display", serif;
+  font-weight: 500;
+}
+
+#vinhosrose{
+  text-align: center;
+  color: rgb(172, 113, 113);
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+}
+
+#frase-impactante{
+  text-align: center;
+  color: #2e2626;
+}
