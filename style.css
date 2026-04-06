@@ -227,3 +227,16 @@ footer a:hover {
 .tabela-vinhos tr:hover {
   background-color: #ffffff;
 }
+
+.banner-guia {
+    width: 100%;
+    height: 300px;
+    object-fit: cover; /* O segredo está aqui! */
+    object-position: center; /* Ajusta para centralizar o que aparece */
+}
+img {
+    width: 100%;       /* Faz a imagem ocupar toda a largura da tela */
+    height: 300px;     /* Define uma altura fixa para o banner */
+    object-fit: cover; /* CORTA a imagem para caber no espaço sem esticar */
+    display: block;    /* Remove espaços vazios estranhos embaixo da imagem */
+}
