@@ -39,6 +39,13 @@
   background-color: #0b1c2c;
 }
 
+.logo a {
+    text-decoration: none;
+    color: white;
+    background-color: transparent;
+    display: inline-block;
+}
+
 /* menu central */
 
 .menu {
@@ -90,4 +97,87 @@
 #frase-impactante{
   text-align: center;
   color: #2e2626;
+}
+
+/* ===== PÁGINA DE CONTATO ===== */
+.contact-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.contact-info, .contact-form {
+    flex: 1;
+    min-width: 250px;
+    background: #fff7f0;
+    padding: 1.5rem;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+.contact-info img {
+    width: 100%;
+    border-radius: 12px;
+    margin-top: 1rem;
+}
+
+.contact-form label {
+    display: block;
+    margin-top: 1rem;
+    font-weight: bold;
+    color: #0b1c2c; 
+}
+
+.contact-form input, 
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-family: inherit;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+    border-color: #b85c1a;
+    outline: none;
+    box-shadow: 0 0 0 2px rgba(184,92,26,0.2);
+}
+
+.contact-form button {
+    background-color: #b85c1a; 
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 1rem;
+    border-radius: 30px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.contact-form button:hover {
+    background-color: #7a3a10; 
+}
+
+
+footer {
+    background-color: #0b1c2c; 
+    color: #d9b48b; 
+    text-align: center;
+    padding: 1.5rem;
+    margin-top: 3rem;
+}
+
+footer a {
+    color: #ffb347; 
+    text-decoration: none;
+    font-weight: 500;
+}
+
+footer a:hover {
+    color: #ffffff;
+    text-decoration: underline;
 }
