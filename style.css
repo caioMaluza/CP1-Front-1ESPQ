@@ -1,0 +1,229 @@
+/* Reset básico (apenas para o hub, se quiser isolar) */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*  Fonte: "Playfair Display" */
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap");
+
+/*  Fonte: "Montserrat"  */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap");
+
+.navbar {
+  position: fixed; /* fica sempre no topo */
+  top: 0;
+  left: 0;
+
+  width: 100%;
+  height: 70px;
+
+  background-color: #0b1c2c; /* azul escuro */
+  color: white;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  padding: 0 40px;
+}
+
+/* logo */
+.logo {
+  font-size: 22px;
+  font-weight: bold;
+  background-color: #0b1c2c;
+}
+
+.logo a {
+    text-decoration: none;
+    color: white;
+    background-color: transparent;
+    display: inline-block;
+}
+
+/* menu central */
+
+.menu {
+  display: flex;
+  justify-content: center;
+}
+
+.menu a {
+  display: inline-block;
+  padding: 10px 20px;
+  text-decoration: none;
+  color: white;
+  background-color: #0b1c2c;
+  border-radius: 5px;
+}
+
+/* lado direito */
+.acoes a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: white;
+  gap: 15px;
+  background-color: #0b1c2c;
+}
+
+/* Aqui vai arrumar a logo */
+.hub-principal {
+  padding-top: 3%;
+  border-radius: 100%;
+}
+
+#titulos {
+  text-align: center;
+  color: #382e2e;
+  font-family: "Playfair Display", serif;
+  font-weight: 500;
+}
+
+#vinhosrose {
+  text-align: center;
+  color: rgb(172, 113, 113);
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+}
+
+#frase-impactante {
+  text-align: center;
+  color: #2e2626;
+}
+
+.guia {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px;
+  background: white;
+  border: 1px solid #ffffff;
+}
+
+.guia h1 {
+  text-align: center;
+  color: #ff0000;
+}
+
+.guia h2 {
+  margin-top: 30px;
+}
+
+.guia p,
+.guia li {
+  line-height: 1.6;
+}
+
+.dica {
+  background: #ffffff;
+  padding: 15px;
+  margin-top: 20px;
+}
+
+/* Aqui vai arrumar a parte de contato */
+.contact-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.contact-info, .contact-form {
+    flex: 1;
+    min-width: 250px;
+    background: #fff7f0;
+    padding: 1.5rem;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+.contact-info img {
+    width: 100%;
+    border-radius: 12px;
+    margin-top: 1rem;
+}
+
+.contact-form label {
+    display: block;
+    margin-top: 1rem;
+    font-weight: bold;
+    color: #0b1c2c; 
+}
+
+.contact-form input, 
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-family: inherit;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+    border-color: #b85c1a;
+    outline: none;
+    box-shadow: 0 0 0 2px rgba(184,92,26,0.2);
+}
+
+.contact-form button {
+    background-color: #b85c1a; 
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 1rem;
+    border-radius: 30px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.contact-form button:hover {
+    background-color: #7a3a10; 
+}
+
+
+footer {
+    background-color: #0b1c2c; 
+    color: #d9b48b; 
+    text-align: center;
+    padding: 1.5rem;
+    margin-top: 3rem;
+}
+
+footer a {
+    color: #ffb347; 
+    text-decoration: none;
+    font-weight: 500;
+}
+
+footer a:hover {
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+.tabela-vinhos {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.tabela-vinhos th {
+  background-color: #800000;
+  color: white;
+  padding: 10px;
+}
+
+.tabela-vinhos td {
+  padding: 10px;
+  border: 1px solid #ffffff;
+}
+
+
+
+.tabela-vinhos tr:hover {
+  background-color: #ffffff;
+}
