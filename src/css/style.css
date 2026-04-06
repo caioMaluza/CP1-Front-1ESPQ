@@ -114,6 +114,17 @@ img {
   margin-bottom: 2rem;
 }
 
+#galeria {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+#galeria img {
+    width: calc(33.33% - 10px);
+    height: auto;
+}
+
 
 .guia {
   max-width: 800px;
