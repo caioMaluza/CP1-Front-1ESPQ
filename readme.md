@@ -9,7 +9,7 @@ O projeto foi conduzido utilizando metodologia ágil, com a participação de Bi
 ## 📂 Estrutura do Projeto
  
 A estrutura de pastas e arquivos está organizada da seguinte forma:
- 
+```
 CP1-Front-1ESPQ/
 │
 ├── index.html
@@ -20,12 +20,13 @@ CP1-Front-1ESPQ/
 │   │
 │   ├── css/
 │   │   └── style.css (arquivo de estilização principal)
-│ │
-│ └── paginas/
-│ ├── contatos.html (página de contatos)
-│ ├── galeria.html (página de informações e fotos)
-│ ├── guia.html (página de guia de vinhos)
-│ └── produtos.html (página de vinhos a venda)
+│   │
+│   └── paginas/
+│       ├── contatos.html (página de contatos)
+│       ├── galeria.html (página de informações e fotos)
+│       ├── guia.html (página de guia de vinhos)
+│       └── produtos.html (página de vinhos a venda)
+```
  
 ## 👥 Integrantes do Projeto
 
