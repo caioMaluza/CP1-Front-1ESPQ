@@ -27,6 +27,14 @@ CP1-Front-1ESPQ/
 │       ├── guia.html (página de guia de vinhos)
 │       └── produtos.html (página de vinhos a venda)
 ```
+## Efeitos Visuais
+
+Implementação de Pseudo-classes:
+Para melhorar a usabilidade e o feedback visual ao usuário, aplicamos as seguintes pseudo-classes:
+* **`:hover`**: Utilizado nos links de navegação e no botão de envio do formulário, alterando cores e aplicando um leve efeito de escala (`transform: scale`) para indicar que os elementos são clicáveis.
+* **`:focus`**: Aplicado aos campos de `input` e `textarea` do formulário. Quando o usuário clica para digitar, o campo ganha um contorno personalizado (`border` e `box-shadow`) nas cores da marca, melhorando a acessibilidade e a clareza da interface.
+* **`:not()`**: Usado de forma estratégica no menu de navegação (`.menu a:not(:last-child)`) para aplicar margens de espaçamento entre os links sem afetar o último elemento, e nas informações de contato para criar linhas divisórias elegantes entre os parágrafos de endereço e telefone.
+
  
 ## 👥 Integrantes do Projeto
 
