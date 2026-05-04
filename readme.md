@@ -19,8 +19,8 @@ CP1-Front-1ESPQ/
 │   │   └── (imagens e arquivos estáticos)
 │   │
 │   ├── css/
-│   ├──── efeitos.css (aarquivo de estilização focada nos efeitos visuais)
-│   ├──── style.css (arquivo de estilização principal)
+│   │     ├── efeitos.css (aarquivo de estilização focada nos efeitos visuais)
+│   │     └── style.css (arquivo de estilização principal)
 │   │
 │   └── paginas/
 │       ├── contatos.html (página de contatos)
