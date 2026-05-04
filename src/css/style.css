@@ -225,12 +225,6 @@ img {
   font-family: inherit;
 }
 
-.contact-form input:focus,
-.contact-form textarea:focus {
-  border-color: #b85c1a;
-  outline: none;
-  box-shadow: 0 0 0 2px rgba(184,92,26,0.2);
-}
 
 .contact-form button {
   background-color: #b85c1a; 
@@ -245,8 +239,8 @@ img {
   width: 100%; 
 }
 
-.contact-form button:hover {
-  background-color: #7a3a10; 
-}
 
 
+
+/* NAO MEXER AQUI, ESSE É O FINAL DESSE CSS */
+@import url(/CP1-Front-1ESPQ/src/css/efeitos.css);

@@ -203,3 +203,39 @@ footer a:hover {
   display: inline-block;
   transition: all 0.3s ease;
 }
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+  border-color: #b85c1a;
+  outline: none;
+  box-shadow: 0 0 0 2px rgba(184,92,26,0.2);
+}
+
+.contact-form button:hover {
+  background-color: #7a3a10; 
+}
+
+
+#galeria img {
+    width: 100%;
+    border-radius: 10px;
+    transition: 0.4s;
+    cursor: pointer;
+}
+
+#galeria img:hover {
+    transform: scale(1.08);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+}
+
+#vinhosrose {
+    font-weight: bold;
+    color: #a83250;
+    margin-bottom: 10px;
+}
+
+
+.hub-principal img {
+    border-radius: 10px;
+    object-fit: cover;
+}
