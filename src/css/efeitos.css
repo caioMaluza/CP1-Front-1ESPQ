@@ -265,3 +265,10 @@ body {
   rotate(2deg);
 }
 
+.acoes {
+  transition: 0.3s;
+}
+
+.acoes:hover {
+  transform: translate(10px, 10px);
+}
