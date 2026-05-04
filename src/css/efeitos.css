@@ -255,3 +255,13 @@ footer a:hover {
 body {
     animation: fadeIn 1s ease-in;
 }
+
+.menu {
+  transition: 0.3s;
+}
+
+.menu:hover {
+  transform: scale(1.1)
+  rotate(2deg);
+}
+
